@@ -1,0 +1,20 @@
+ANTIGRAVITY INSTALLATION — QUICK START
+
+1. Extract universal-auto-trading-audit.zip.
+2. In the target repository, create:
+   .agent/skills/
+3. Copy the entire universal-auto-trading-audit folder into that directory.
+4. Reload/reopen the project in Antigravity.
+5. Verify the Skill appears in the available Skills list/interface.
+6. Add the mandatory invocation rule from README.md to the project's
+   always-loaded Agent instruction file (append; do not overwrite).
+7. Ask the Agent to run the First invocation from README.md.
+
+Expected path:
+<project>/.agent/skills/universal-auto-trading-audit/SKILL.md
+
+If Antigravity's installed version documents a different Skills path, use the
+documented path and verify discovery. Do not assume installation succeeded.
+
+This package does not automatically change your Agent's global configuration,
+project files, permissions, or production system.

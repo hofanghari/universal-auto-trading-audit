@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-YYYYMMDD-HHMMSS",
+  "project": {
+    "name": "",
+    "root": "",
+    "revision": "",
+    "environment": ""
+  },
+  "skill": {
+    "name": "universal-auto-trading-audit",
+    "version": "1.0.0",
+    "loaded": false,
+    "references_loaded": []
+  },
+  "active_phase": "PHASE_1",
+  "phase_status": {
+    "PHASE_1": "NOT_STARTED",
+    "PHASE_2": "NOT_STARTED",
+    "PHASE_3": "NOT_STARTED",
+    "PHASE_4": "NOT_STARTED"
+  },
+  "items": [
+    {
+      "task_id": "P1-DISC-001",
+      "phase": "PHASE_1",
+      "description": "Discover project structure and entry points",
+      "priority": "HIGH",
+      "status": "NOT_STARTED",
+      "evidence": [],
+      "blocker": null,
+      "notes": ""
+    }
+  ],
+  "summary": {
+    "completed": 0,
+    "blocked": 0,
+    "not_tested": 0,
+    "inconclusive": 0
+  },
+  "gate_result": "NOT_EVALUABLE",
+  "updated_at_utc": ""
+}
